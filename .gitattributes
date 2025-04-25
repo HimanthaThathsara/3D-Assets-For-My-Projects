@@ -1,5 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.blend,[[:space:]].fbx[[:space:]],[[:space:]].glb[[:space:]],[[:space:]].gltf filter=lfs diff=lfs merge=lfs -text
-*.blend,*.fbx,*.glb,*.gltf filter=lfs diff=lfs merge=lfs -text
 *.blend filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.gltf filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
